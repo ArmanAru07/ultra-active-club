@@ -1,41 +1,25 @@
-// use local storage to manage user data
-const addToDb = id =>{
-    let gymUser = {};
+const Settimelocal = (time) => {
+    let trainingTime = {};
 
-    const storedUser = localStorage.getItem('gym-user');
-    if(storedUser){
-        gymUser = JSON.parse(storedUser);
-    }
-
-    // add time
-    const time = gymUser[id];
-    if(time){
-        const newTime = time + 1;
-        gymUser[id] = newTime;
-    }
-    else{
-        gymUser[id] = 1;
-    }
-    localStorage.setItem('gym-user', JSON.stringify(gymUser));
+    trainingTime[Date.now()] = { time };
+    localStorage.setItem('TotalActivity', JSON.stringify(trainingTime))
+    window.location.reload();
 }
 
-const removeFromDb = id =>{
-    const storedUser = localStorage.getItem('gym-user');
-    if(storedUser){
-        const gymUser = JSON.parse(storedUser);
-        if(id in gymUser){
-            delete gymUser[id];
-            localStorage.setItem('gym-user', JSON.stringify(gymUser));
-        }
+
+
+const getTime = () => {
+    const storeTime = localStorage.getItem('TotalActivity')
+    const trainingInfo = {}
+
+    if (storeTime) {
+
+        const trainingInfo = JSON.parse(storeTime);
+        return trainingInfo
+    }
+    else {
+        return trainingInfo;
     }
 }
 
-const deletegymUser = () =>{
-    localStorage.removeItem('gym-user');
-}
-
-export {
-    addToDb, 
-    removeFromDb,
-    deletegymUser
-}
+export { Settimelocal, getTime }
