@@ -1,0 +1,14 @@
+.user{
+    position: sticky;
+    top: 0;
+    padding: 28px;
+    background-color: rgb(232, 221, 208);
+    height: 650px;
+}
+.discribe{
+    display: flex;
+}
+.user-info{
+    margin: 5px;
+    padding: 5px;
+}

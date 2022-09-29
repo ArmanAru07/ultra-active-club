@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Exercise from '../Exercise/Exercise';
+import User from '../User/User';
 import './Gym.css'
 
 
@@ -24,6 +25,8 @@ const Gym = () => {
     return (
         <div className="gym-container">
             
+            <div>
+                <h3>Select Your Item List</h3>
             <div className="exercise-container">    
                 {
                     exercises.map(exercise=><Exercise
@@ -33,9 +36,9 @@ const Gym = () => {
                     ></Exercise>)
                 }
             </div>
+            </div>
             <div className= "user-container">
-                <h3>User</h3>
-                <p>Selected Item: {user.length}</p>
+                <User user={user}></User>
             </div>
         </div>
     );

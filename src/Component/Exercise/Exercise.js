@@ -3,7 +3,6 @@ import './Exercise.css'
 
 const Exercise = ({exercise, handleSelect}) => {
 
-    // const {exercise, handleSelect} = props;
     const {img, title, age, time} = exercise;
     
     return (
@@ -15,7 +14,7 @@ const Exercise = ({exercise, handleSelect}) => {
                  <p>Time Required: {time}s</p>
             </div>
             <button onClick={() => handleSelect(exercise)} className='btn-select'>
-                <p>Select</p>
+                <p className='btn-text'>Add to List</p>
             </button>
         </div>
     );

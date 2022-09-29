@@ -6,9 +6,10 @@
 }
 .exercise{
     width: 300px;
-    height: 510px;
+    height: 416px;
     border: 1px solid #95A0A7;
     border-radius: 8px;
+    margin-bottom: 10px;
 }
 .exercise-info{
     margin: 0 5px;
@@ -26,10 +27,10 @@
 }
 .btn-select{
     width: 100%;
-    background-color: #FFE0B3;
+    background-color:rgb(81, 81, 243);
     border: none;
     border-radius: 0px 0px 8px 8px;
 }
 .btn-select :hover{
-    background-color: orange;
+    background-color: rgb(62, 16, 228);
 }
