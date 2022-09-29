@@ -1,0 +1,44 @@
+[
+    {
+    "id": "001",
+    "title": "A Flyer for a gym",
+    "age": "15-30",
+    "time": 30,
+    "img": "https://learnenglish.britishcouncil.org/sites/podcasts/files/RS4967_78781313-hig.jpg"
+    },
+    {
+    "id": "002",
+    "title": "Mint Lounge",
+    "age": "20-30",
+    "time": 40,
+    "img": "https://images.livemint.com/img/2021/08/10/1200x900/20201025_MUM-PC-MN_Gym_Reopen_015_1628583917333_1628583934428.JPG"
+    },
+    {
+    "id": "003",
+    "title": "Honeycombers",
+    "age": "25-40",
+    "time": 60,
+    "img": "https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/01/best-gyms-in-singapore-Andrea-Piacquadio-via-Pexels-900x643.jpg"
+    },
+    {
+    "id": "004",
+    "title": "Lifter",
+    "age": "18-30",
+    "time": 40,
+    "img": "https://www.mensjournal.com/wp-content/uploads/mf/1280-improve-performance.jpg?w=900&quality=86&strip=all"
+    },
+    {
+    "id": "005",
+    "title": "Push-Up",
+    "age": "25-30",
+    "time": 60,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2rURnVgHhkHELShghfTSdE3Hklq1Qv4sMWTTpG0IfkINb9YBdzxQViQ18pXI9sa_KQXE&usqp=CAU"
+    },
+    {
+    "id": "006",
+    "title": "Hectic Life",
+    "age": "15-30",
+    "time": 30,
+    "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3H684SVT4DL6WQL3b3HgpmJOmj0rMmZkSlvTUbfbuI4asg-kP3DM9DJolfy0pYiDg274&usqp=CAU"
+    }
+]

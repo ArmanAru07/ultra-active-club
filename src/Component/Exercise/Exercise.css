@@ -1,4 +1,35 @@
-.exercise-container{
-    display: grid;
-    grid-template-columns: 4fr 1fr;
+.exercise img{
+    width: 280px;
+    height: 270px;
+    border-radius: 8px;
+    margin: 7px;
+}
+.exercise{
+    width: 300px;
+    height: 510px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+}
+.exercise-info{
+    margin: 0 5px;
+}
+.exercise-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.exercise-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+}
+.btn-select{
+    width: 100%;
+    background-color: #FFE0B3;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+}
+.btn-select :hover{
+    background-color: orange;
 }
