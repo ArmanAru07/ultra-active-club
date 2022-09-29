@@ -13,7 +13,7 @@ const User = (props) => {
     return (
         <div className='user'>
             <div>
-                <img src="" alt="" />
+                <img src="../../image/stock-vector-male-avatar-cartoon-guy-character-facial-expression-smile-vector-illustration-580573279.jpg" alt="" />
                 <h4>Arman Hosen</h4>
                 <p><small>Chowmuhani, Noakhali</small></p>
                 <div className='discribe'>
@@ -24,18 +24,18 @@ const User = (props) => {
             </div>
             <div>
                 <h5>Add A Break</h5>
-                <button>10s</button>
-                <button>20s</button>
-                <button>30s</button>
-                <button>40s</button>
-                <button>50s</button>
+                <button className='btn-break'>10s</button>
+                <button className='btn-break'>20s</button>
+                <button className='btn-break'>30s</button>
+                <button className='btn-break'>40s</button>
+                <button className='btn-break'>50s</button>
                 <h5>Exercise Details</h5>
                 <div>
                     <h5>Exercise Time: <small>{total} seconds</small></h5>
                     <h5>Break Time: <small> seconds</small></h5>
                 </div>
 
-                <button>Activity Completed</button>
+                <button className='btn-final'>Activity Completed</button>
             </div>
 
 

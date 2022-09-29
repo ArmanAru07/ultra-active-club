@@ -14,3 +14,14 @@
         grid-template-columns: repeat(2, 1fr);
     }
 }
+.blog{
+    border: 2px solid blueviolet;
+    margin: 30px;
+    padding: 10px;
+    background-color: blanchedalmond;
+}
+.blog h4{
+    background-color: beige;
+    padding: 5px;
+    margin: 20px;
+}
