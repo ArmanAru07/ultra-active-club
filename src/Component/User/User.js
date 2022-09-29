@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getTime, Settimelocal } from '../../utilities/fakeDB';
 import './User.css'
+import me from '../../image/stock-vector-male-avatar-cartoon-guy-character-facial-expression-smile-vector-illustration-580573279.jpg';
 
 const User = (props) => {
     const {user} = props;
@@ -30,7 +31,7 @@ const User = (props) => {
     return (
         <div className='user'>
             <div>
-                <img src="../../image/stock-vector-male-avatar-cartoon-guy-character-facial-expression-smile-vector-illustration-580573279.jpg" alt="" />
+                <img src={me} alt="" />
                 <h4>Arman Hosen</h4>
                 <p><small>Chowmuhani, Noakhali</small></p>
                 <div className='discribe'>
