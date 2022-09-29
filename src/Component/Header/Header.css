@@ -1,6 +1,11 @@
 .header{
+    display: flex;
     background-color: azure;
     margin: 4px;
     align-items: center;
     justify-items: center;
+}
+.header img{
+    height: 80px;
+    width: 80px;
 }

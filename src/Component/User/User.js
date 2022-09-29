@@ -31,9 +31,14 @@ const User = (props) => {
     return (
         <div className='user'>
             <div>
-                <img src={me} alt="" />
-                <h4>Arman Hosen</h4>
-                <p><small>Chowmuhani, Noakhali</small></p>
+                <div className='me'>
+                    <img src={me} alt="" />
+
+                    <div>
+                        <h4>Arman Hosen</h4>
+                        <p><small>Chowmuhani, Noakhali</small></p>
+                    </div>
+                </div>
                 <div className='discribe'>
                     <div className='user-info'><h3>60<small>kg</small></h3><p>Weight</p></div>
                     <div className='user-info'><h3>5.6 </h3><p>Height</p></div>
